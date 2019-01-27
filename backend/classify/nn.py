@@ -1,7 +1,7 @@
 from keras.layers import Input,Dense,Conv2D,Flatten,Dropout,MaxPooling2D
 from keras.models import Model
 
-def vgg_fm(input_shape):
+def conv3fc2(input_shape):
     input_tensor=Input(shape=input_shape)
     x = Conv2D(32, (7, 7), activation='relu', padding='same', name='block1_conv1')(input_tensor)
     x = MaxPooling2D((2, 2), strides=(2, 2), name='block1_pool', padding='same')(x)
