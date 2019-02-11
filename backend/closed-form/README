@@ -1,2 +1,1 @@
-Python implementation of image matting method proposed in A. Levin D. Lischinski and Y. Weiss. A Closed Form Solution to Natural Image Matting. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), June 2006, New York
-Code written by Marco Forte.
+Python implementation of image matting method proposed in A. Levin D. Lischinski and Y. Weiss by Marco Forte.
